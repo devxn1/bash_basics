@@ -19,6 +19,6 @@ day=$(date +%A)
 if [ "$day" = "Saturday"] || [ "$day" = "Sunday" ]; then
 	echo "Yayyy It's the weekend!"
 else 
-	echo "Dang, It's the weekday!"
+	echo "Dang, it's the weekday!"
 fi
 
